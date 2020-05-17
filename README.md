@@ -35,7 +35,7 @@ Take the case of needing to replace the .innerHTML of an element.  A Javascript 
 
 Consider this code below, that programattically populates a drop-down menu in a bootstrap application (from https://adminlte.io) from a datasource:
 
-```
+```javascript
 // Example of how code might be structured without Sami HTML helpers
 var element=document.getElementById("drop-down-7");
 var options=
@@ -66,7 +66,7 @@ While the above example syntatically works (the data is populated from a "dataso
 
 In Sami, the same code might look like this:
 
-```
+```javascript
 // Example refactored with Sami's functional HTML helpers:
  var element=Get("someting");
  var options=[
@@ -93,7 +93,7 @@ The above code is easier to manage and, once structured, can be easily refactore
 Sami can be used to both render a form and to handle its data.  It does not perform validation (it's assumed to happen server-side), but can be extended to do so since the "DOM ids" that it generates are predictable and user-configurable.   Forms can be placed anywhere.  It work swith jQuery, Angular, Bootstrap, you name it.
 
 In Javascript (this example also uses jQuery), a Javascript app form might look like:
-```
+```javascript
 element.innerHTML='<div><label for="inputtag">My Label</label><input type="text" id="inputtag" name="inputtag" placeholder="something..." value="'
                  +myData.existingInputTagValue
                  +'" data-storage="somespecialtag" /><button id="submitform"><i class="fa fa-plus"></i></button></div>';
