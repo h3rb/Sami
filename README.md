@@ -6,6 +6,7 @@ A javascript library that presents common html and form controls as a simple pro
 ### Dependencies
 
 Sami depends on:
+* jQuery (most versions), though it only uses a few features (events, lookups, add/remove css class, hide/show)
 * faicon() function requires inclusion of Font Awesome CSS (packaged with 4.7.0 but the version can be changed)
 * 'markdown' form control requires 'markdown'
 
