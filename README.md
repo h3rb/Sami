@@ -105,11 +105,14 @@ $("#submitform").click(function(e){
 });
 ```
 
-Sami takes a different approach.  It assumes firstly:
-a. Data may originate with a user, but is ultimately going to be stored in a structured object.  
-b. Once data is in a structured object, it may need to be edited later.
-c. The structure of the edit-able data is almost exactly the same as the way it was inputted.
-d. Therefore, data adheres to a model.
+Sami takes a different approach that keeps things more consistent and easier to manage.  
+
+It assumes firstly:
+1. Data may originate with a user, but is ultimately going to be stored in a structured object.  
+2. Once data is in a structured object, it may need to be edited later.
+3. The structure of the edit-able data is almost exactly the same as the way it was inputted.
+
+Therefore, data adheres to a model.
 
 The two basic assumptions are two-thirds of the Edit-Add-View design pattern.  This usually occurs in the order of "Add", "View", "Edit", and for the purposes of rapid development, the "View" portion may be similar to the "Edit" form, except read-only, unless something specific needs to be done with the inputs.  However, Edit and View are almost always the same for structured data that has been added by the user.
 
