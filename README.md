@@ -3,19 +3,19 @@ A javascript library that presents common html and form controls as a simple pro
 * functional HTML rendering
 * form rendering and data handling based on configurable data models
 
-# Dependencies
+### Dependencies
 
 Sami depends on:
 * faicon() function requires inclusion of Font Awesome CSS (packaged with 4.7.0 but the version can be changed)
 * 'markdown' form control requires 'markdown'
 
-# How the library got its name
+### How the library got its name
 
 The Saami people (also Sámi or Sami) are a Finno-Ugric people inhabiting Sápmi, which today encompasses large northern parts of Norway, Sweden, Finland and the Kola Peninsul within the Murmansk Oblast of Russia.  In English, they have been historically known as Lapps or Laplanders.  Among other livelihoods, the Sámi people's best-known livelihood was as semi-nomadic reindeer herders. 
 
 The reason this library is named Sami is to conceptualize the idea of herding data from a client form into an API endpoint.  Other ideas for names were htCamel, SamiForm (a play on semaphore) and PackForm.
 
-# Implementation Philosophy
+### Implementation Philosophy
 
 Sami is implemented functionally on top of vanilla Javascript.  Instead of implementing Sami as an object, it is a series of "free functions", but it is possible to import Sami as an object to avoid global namespace collisions or to modularize/compartmentalize it.
 
@@ -25,9 +25,9 @@ Sami creates a dialect that handles:
 * Advanced forms with hide/reveal and/or extendable sections with recursive functionality
 * Form data acquisition into a JSON object
 
-# Uses and Workflows
+## Uses and Workflows
 
-## Simple, Functional HTML Rendering
+### Simple, Functional HTML Rendering
 
 Sami's HTML rendering functions are named after HTML tags (with few exceptions).  They can be used to generate HTML with common elements, or extended to include uncommon element names (user-defined).
 
@@ -88,7 +88,7 @@ In Sami, the same code might look like this:
 
 The above code is easier to manage and, once structured, can be easily refactored as a functional "block" rather than as a gangly difficult-to-manage syntatical nightmarish string.
 
-## Form handling helpers
+### Form handling helpers
 
 Sami can be used to both render a form and to handle its data.  It does not perform validation (it's assumed to happen server-side), but can be extended to do so since the "DOM ids" that it generates are predictable and user-configurable.   Forms can be placed anywhere.  It work swith jQuery, Angular, Bootstrap, you name it.
 
