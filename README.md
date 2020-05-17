@@ -11,7 +11,7 @@ Sami depends on:
 
 ### How the library got its name
 
-![alt text](https://en.wikipedia.org/wiki/Pack_animal#/media/File:Reindeer_and_pack,_with_Lapp_driver.jpg "Pack reindeer with Sami Driver from The land of the midnight sun, c. 1881")
+![alt text](https://github.com/h3rb/Sami/raw/master/Reindeer_and_pack,_with_Lapp_driver.jpg "Pack reindeer with Sami Driver from The land of the midnight sun, c. 1881")
 
 The Saami people (also Sámi or Sami) are a Finno-Ugric people inhabiting Sápmi, which today encompasses large northern parts of Norway, Sweden, Finland and the Kola Peninsul within the Murmansk Oblast of Russia.  In English, they have been historically known as Lapps or Laplanders.  Among other livelihoods, the Sámi people's best-known livelihood was as semi-nomadic reindeer herders. 
 
