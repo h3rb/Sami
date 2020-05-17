@@ -83,7 +83,9 @@ In Sami, the same code might look like this:
     "myApp.DoItFunction(this,1)"
    )
  ];
-   
+var output='';
+for ( var i=0; i<options.length; i++ ) output+=li(options[i]);
+element.innerHTML=ul(output,"menu");
 ```
 
 The above code is easier to manage and, once structured, can be easily refactored as a functional "block" rather than as a gangly difficult-to-manage syntatical nightmarish string.
