@@ -11,6 +11,8 @@ Sami depends on:
 
 ### How the library got its name
 
+![alt text](https://en.wikipedia.org/wiki/Pack_animal#/media/File:Reindeer_and_pack,_with_Lapp_driver.jpg)
+
 The Saami people (also Sámi or Sami) are a Finno-Ugric people inhabiting Sápmi, which today encompasses large northern parts of Norway, Sweden, Finland and the Kola Peninsul within the Murmansk Oblast of Russia.  In English, they have been historically known as Lapps or Laplanders.  Among other livelihoods, the Sámi people's best-known livelihood was as semi-nomadic reindeer herders. 
 
 The reason this library is named Sami is to conceptualize the idea of herding data from a client form into an API endpoint.  Other ideas for names were htCamel, SamiForm (a play on semaphore) and PackForm.
