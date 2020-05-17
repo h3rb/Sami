@@ -10,6 +10,8 @@ Sami depends on:
 * faicon() function requires inclusion of Font Awesome CSS (packaged with 4.7.0 but the version can be changed)
 * 'markdown' form control requires 'markdown'
 
+Not formally a jQuery plug-in.
+
 ### How the library got its name
 
 ![alt text](https://github.com/h3rb/Sami/raw/master/Reindeer_and_pack,_with_Lapp_driver.jpg "Pack reindeer with Sami Driver from The land of the midnight sun, c. 1881")
